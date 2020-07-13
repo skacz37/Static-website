@@ -1,0 +1,115 @@
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+    display: block;
+} 
+div{
+    display: block;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(61, 61, 61);
+    height: 100px;
+    align-items: center;
+}
+.navigation p{
+    font-size: 30;
+    font-family: fantasy;
+    color: whitesmoke;
+}
+.img-logo{
+    border-right: 3px solid red;
+    padding-right: 5px;
+    background-color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.button-menu{
+    color: rgb(64, 64, 64);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.button-menu li{
+    margin-right: 50px;
+}
+.button-menu button{
+    width: 100px;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: larger;
+    font-family: monospace;
+    color: whitesmoke;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+.logo img{
+    padding: 0 75px 0 75px;
+    background-color:rgb(61, 61, 61);
+}
+.players-info{  
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 480px;
+    padding: 15px 30px 50px 30px;
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 5px;
+    align-items: center;
+    width: 248px;
+}
+.players-info button{
+    align-items: center;
+}
+.both{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    background-color: whitesmoke;
+}
+.hover:hover{
+    opacity: 0.5;
+}
+.hover img{
+    height: 250px;
+    width: 450px;
+}
+.center{
+    text-align: center;
+}
+.przerwa{
+    width: 1440px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.column-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
