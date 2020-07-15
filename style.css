@@ -47,7 +47,7 @@ p{
     background-color: black;
     border-radius: 50px;
     cursor: pointer;
-    font-size: larger;
+    font-size: 16px;
     font-family: monospace;
     color: whitesmoke;
 }
@@ -60,6 +60,7 @@ p{
     justify-content: center;
     padding-bottom: 100px;
     background-color: whitesmoke;
+    padding-top: 100px;
 }
 .logo img{
     padding: 0 75px 0 75px;
@@ -74,7 +75,7 @@ p{
     border: 2px solid rgb(31, 31, 31);
     border-radius: 5px;
     align-items: center;
-    width: 248px;
+    width: 280px;
 }
 .players-info button{
     align-items: center;
@@ -84,10 +85,12 @@ p{
     justify-content: space-evenly;
     padding-bottom: 100px;
     background-color: whitesmoke;
+    flex-wrap: wrap;
 }
 .three{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-bottom: 60px;
     background-color: whitesmoke;
 }
@@ -100,11 +103,6 @@ p{
 }
 .center{
     text-align: center;
-}
-.przerwa{
-    width: 1440px;
-    height: 100px;
-    background-color: whitesmoke;
 }
 .column-footer{
     display: flex;

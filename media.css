@@ -1,0 +1,35 @@
+@media only screen and (max-width:860px){
+    nav{
+        max-width: 860px
+    }
+    .navigation p{
+        font-size: 20px;
+    }
+    .button-menu button{
+        width: 75px;
+        font-size: 12px;
+    }
+    .logo img{
+        width: 400px;
+        }
+    .button-menu li{
+        margin-right: 20px;
+    }
+    .logo img{
+        padding: 0 50px 0 50px;
+    }
+}
+@media only screen and (max-width:680px){
+    nav {
+        max-width: 660px;
+    }
+    .navigation p{
+        font-size: 16px;
+    }
+    .button-menu button{
+        width: 70px;
+        font-size: 10px;
+    }
+    .players-info{
+    }
+}
